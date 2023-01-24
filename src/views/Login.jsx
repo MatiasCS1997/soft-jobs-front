@@ -24,7 +24,7 @@ export default function RegistroForm() {
       const { data: token } = await axios.post(urlServer + endpoint, usuario);
       alert("Usuario identificado con éxito 😀");
       localStorage.setItem("token", token);
-      setUsuario()
+      setUsuario();
       navigate("/perfil");
     } catch ({ response: { data: message } }) {
       alert(message + " 🙁");

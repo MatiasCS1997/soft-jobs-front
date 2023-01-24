@@ -26,7 +26,7 @@ export default function Home() {
 
   useEffect(() => {
     getUsuarioData();
-  },[]);
+  }, []);
 
   return (
     <div className="py-5">

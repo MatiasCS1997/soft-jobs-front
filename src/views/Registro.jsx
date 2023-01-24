@@ -68,7 +68,7 @@ export default function RegistroForm() {
         </select>
       </div>
       <div className="form-group mt-1">
-        <label>Lenguage</label>
+        <label>Lenguaje</label>
         <select
           value={usuario.lenguage}
           onChange={handleSetUsuario}
@@ -76,7 +76,7 @@ export default function RegistroForm() {
           className="form-select"
         >
           <option disabled selected>
-            Seleccione un Lenguage
+            Seleccione un Lenguaje
           </option>
           <option value="JavaScript">JavaScript</option>
           <option value="Python">Python</option>
